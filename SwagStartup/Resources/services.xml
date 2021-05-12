@@ -1,0 +1,9 @@
+<service id="swag_start_up.subscriber.route" class="SwagSloganOfTheDay\Subscriber\RouteSubscriber">
+    <argument>%swag_start_up.plugin_name%</argument>
+    <argument>%swag_start_up.plugin_dir%</argument>
+
+    <argument type="service" id="swag_start_up.slogan_printer" />
+    <argument type="service" id="shopware.plugin.cached_config_reader" />
+
+    <tag name="shopware.event_subscriber" />
+</service>

@@ -25,7 +25,7 @@ class Shopware_Controllers_Frontend_RoutingDemonstration extends Enlight_Control
 
 	public function indexAction()
 	{
-	$this->view->assign('nextPage', 'shopware.bay20.com');
+	$this->view->assign('nextPage', 'foo');
 	}
 
 	public function fooAction()
